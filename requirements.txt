@@ -1,0 +1,6 @@
+pandas
+bentoml
+scikit-learn
+fastapi
+uvicorn
+typing_extensions
