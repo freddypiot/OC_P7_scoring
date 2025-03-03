@@ -1,0 +1,40 @@
+conda:
+  channels: null
+  dependencies: null
+  environment_yml: null
+  pip: null
+description: null
+docker:
+  base_image: null
+  cuda_version: null
+  distro: debian
+  dockerfile_template: null
+  env: null
+  python_version: '3.13'
+  setup_script: null
+  system_packages: null
+envs: []
+exclude: []
+include:
+- '*.py'
+- export_base_credit_1000.csv
+- prediction_credit_model.bentomodel
+labels: {}
+models: []
+name: null
+python:
+  extra_index_url: null
+  find_links: null
+  index_url: null
+  lock_packages: false
+  no_index: null
+  pack_git_packages: true
+  packages:
+  - pandas
+  - bentoml
+  - scikit-learn
+  pip_args: null
+  requirements_txt: null
+  trusted_host: null
+  wheels: null
+service: prediction_credit:svc
