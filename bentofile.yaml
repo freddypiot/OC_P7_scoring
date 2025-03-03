@@ -3,7 +3,7 @@ service: "prediction_credit:PredictionCredit"
 include:
   - "*.py"
   - "export_base_credit_1000.csv"
-  - "prediction_credit_model.bentomodel"
+  - "bentoml/**"
 python:
   packages:
     - pandas
