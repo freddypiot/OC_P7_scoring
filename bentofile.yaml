@@ -4,6 +4,9 @@ include:
   - "*.py"
   - "export_base_credit_1000.csv"
   - "bentoml/**"
+
+models:
+  - "prediction_credit_model"
 python:
   packages:
     - pandas
