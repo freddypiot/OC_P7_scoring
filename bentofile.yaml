@@ -1,5 +1,5 @@
 
-service: "prediction_credit:svc"
+service: "prediction_credit:PredictionCredit"
 include:
   - "*.py"
   - "export_base_credit_1000.csv"
