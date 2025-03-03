@@ -1,0 +1,12 @@
+
+service: "prediction_credit:svc"
+include:
+  - "*.py"
+  - "export_base_credit_1000.csv"
+  - "prediction_credit_model.bentomodel"
+python:
+  packages:
+    - pandas
+    - bentoml
+    - scikit-learn
+  lock_packages: false
