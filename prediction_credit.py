@@ -16,6 +16,7 @@ seuil = 0.1
 
 @bentoml.service
 class PredictionCredit():
+    bentoml.models.list() #test 
     prediction_credit_model: bentoml.models.get("prediction_credit_model:latest")
 
     def __init__(self):
