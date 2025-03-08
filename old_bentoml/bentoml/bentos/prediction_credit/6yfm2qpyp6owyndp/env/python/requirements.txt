@@ -1,0 +1,4 @@
+pandas
+bentoml
+scikit-learn
+bentoml==1.4.0
