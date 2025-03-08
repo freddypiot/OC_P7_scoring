@@ -4,3 +4,7 @@ joblib
 scikit-learn
 gunicorn
 pytest
+streamlit
+requests
+matplotlib
+seaborn
